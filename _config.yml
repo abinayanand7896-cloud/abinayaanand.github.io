@@ -1,0 +1,15 @@
+title: ML Tutorials — From Zero to Deep Learning
+description: Beginner-friendly machine learning tutorials with plain-English explanations and hands-on Python code.
+baseurl: ""
+url: "https://abinayaanand.github.io"
+
+remote_theme: just-the-docs/just-the-docs
+
+nav_sort: order
+highlighter: rouge
+markdown: kramdown
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md

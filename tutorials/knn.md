@@ -7,7 +7,7 @@ nav_order: 4
 
 # K-Nearest Neighbors (KNN)
 
-## Plain English Intro
+## Simple Explanation
 
 You move to a new city and want to know if a neighborhood is good for families. You ask your 5 nearest neighbors. If 4 out of 5 say "yes, great for families," you conclude the neighborhood is family-friendly.
 

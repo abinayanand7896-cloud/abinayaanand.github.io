@@ -7,7 +7,7 @@ nav_order: 10
 
 # Principal Component Analysis (PCA)
 
-## Plain English Intro
+## Simple Explanation
 
 Imagine a 3D sculpture. Taking a photo of it gives you a 2D image — you lose some depth information, but you still capture the most important shapes.
 

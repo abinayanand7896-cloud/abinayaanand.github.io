@@ -7,7 +7,7 @@ nav_order: 1
 
 # What are Neural Networks?
 
-## Plain English Intro
+## Simple Explanation
 
 Your brain is made of ~86 billion neurons — cells that send electrical signals to each other. When you learn something new, the connections between neurons get stronger.
 

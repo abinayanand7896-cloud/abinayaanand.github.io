@@ -7,7 +7,7 @@ nav_order: 1
 
 # Gradient Boosting
 
-## Plain English Intro
+## Simple Explanation
 
 Imagine you're a student taking multiple practice tests. After each test, you study the questions you got wrong. Over time, you focus more and more on your weak spots. Each study session makes you a little better.
 

@@ -7,7 +7,7 @@ nav_order: 8
 
 # Support Vector Machines (SVM)
 
-## Plain English Intro
+## Simple Explanation
 
 Imagine two neighborhoods on a map — one with red houses, one with blue houses. You want to draw a boundary line between them. SVM finds the widest possible "street" between the two neighborhoods, placing the boundary right in the middle of that street.
 

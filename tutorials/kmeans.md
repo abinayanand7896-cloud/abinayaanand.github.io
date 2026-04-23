@@ -7,7 +7,7 @@ nav_order: 9
 
 # K-Means Clustering
 
-## Plain English Intro
+## Simple Explanation
 
 Imagine you work at a store and want to group your customers into segments — bargain hunters, premium shoppers, occasional buyers — without knowing these categories in advance. You just have their purchase history.
 

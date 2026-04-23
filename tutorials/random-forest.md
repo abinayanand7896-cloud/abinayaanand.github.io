@@ -7,7 +7,7 @@ nav_order: 7
 
 # Random Forests
 
-## Plain English Intro
+## Simple Explanation
 
 One doctor's opinion can be wrong. But if you ask 100 doctors and take the majority vote, you'll usually get a better answer.
 

@@ -7,7 +7,7 @@ nav_order: 1
 
 # What is Machine Learning?
 
-## Plain English Intro
+## Simple Explanation
 
 Imagine you want to teach a child to recognize cats. You don't write rules like "has pointy ears, has whiskers, has fur." Instead, you show them thousands of cat photos and say "cat" each time. Eventually, they figure out the pattern themselves.
 

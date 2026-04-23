@@ -7,7 +7,7 @@ nav_order: 3
 
 # Logistic Regression
 
-## Plain English Intro
+## Simple Explanation
 
 Despite its name, Logistic Regression is used for **classification**, not regression. Think of an email spam filter: given an email, it needs to decide — spam or not spam? Logistic Regression looks at the features of the email and outputs a probability (0 to 100%) that it's spam. Above 50% → spam. Below 50% → not spam.
 

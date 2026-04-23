@@ -7,7 +7,7 @@ nav_order: 6
 
 # Decision Trees
 
-## Plain English Intro
+## Simple Explanation
 
 Think of the game 20 Questions. You ask: "Is it a mammal?" → Yes. "Is it bigger than a dog?" → No. "Does it live indoors?" → Yes. → Cat!
 

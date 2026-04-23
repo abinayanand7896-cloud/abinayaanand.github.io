@@ -7,7 +7,7 @@ nav_order: 2
 
 # Multilayer Perceptron (MLP)
 
-## Plain English Intro
+## Simple Explanation
 
 An MLP is the simplest kind of neural network — a stack of layers where every unit in one layer is connected to every unit in the next. It's the "vanilla" neural network. Before CNNs and RNNs, nearly all neural network work used this design.
 

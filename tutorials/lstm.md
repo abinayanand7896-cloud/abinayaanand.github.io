@@ -7,7 +7,7 @@ nav_order: 5
 
 # Long Short-Term Memory (LSTM)
 
-## Plain English Intro
+## Simple Explanation
 
 A simple RNN reads a sequence step by step, but it forgets things from far back — like reading a novel and forgetting the opening chapter by the end.
 

@@ -7,7 +7,7 @@ nav_order: 3
 
 # Convolutional Neural Networks (CNN)
 
-## Plain English Intro
+## Simple Explanation
 
 When you look at a photo of a cat, your eyes don't process each pixel independently. They detect edges, then shapes, then features like ears and whiskers. CNNs work the same way — they scan images with small filters, detecting simple patterns first and combining them into complex features layer by layer.
 

@@ -7,7 +7,7 @@ nav_order: 2
 
 # XGBoost
 
-## Plain English Intro
+## Simple Explanation
 
 XGBoost (eXtreme Gradient Boosting) is Gradient Boosting with a turbo engine. It does the same thing — trains trees sequentially to fix mistakes — but with a smarter algorithm that's dramatically faster and handles large datasets well.
 

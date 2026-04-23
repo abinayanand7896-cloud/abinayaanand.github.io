@@ -7,7 +7,7 @@ nav_order: 2
 
 # Linear Regression
 
-## Plain English Intro
+## Simple Explanation
 
 Imagine you want to predict a house price based on its size. You plot data from 100 houses — size on the x-axis, price on the y-axis. You notice a trend: bigger houses cost more.
 

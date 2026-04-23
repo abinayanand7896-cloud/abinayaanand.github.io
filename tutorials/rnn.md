@@ -7,7 +7,7 @@ nav_order: 4
 
 # Recurrent Neural Networks (RNN)
 
-## Plain English Intro
+## Simple Explanation
 
 Reading a sentence word by word, you remember what came before. "The bank was steep" vs. "The bank was empty" — the word "bank" means something different based on surrounding context.
 

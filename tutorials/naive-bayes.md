@@ -7,7 +7,7 @@ nav_order: 5
 
 # Naive Bayes
 
-## Plain English Intro
+## Simple Explanation
 
 A doctor sees a patient with a fever and a cough. Based on past patients, they know: 80% of flu patients had fever, 70% had cough. Using these probabilities together, they estimate the chance this patient has the flu.
 

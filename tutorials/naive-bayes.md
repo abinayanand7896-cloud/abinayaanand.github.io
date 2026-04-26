@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Naive Bayes
-parent: ML Foundations
-nav_order: 5
+parent: ML Basics
+nav_order: 11
 ---
 
 # Naive Bayes

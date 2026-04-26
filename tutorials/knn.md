@@ -1,8 +1,8 @@
 ---
 layout: default
 title: K-Nearest Neighbors
-parent: ML Foundations
-nav_order: 4
+parent: ML Basics
+nav_order: 10
 ---
 
 # K-Nearest Neighbors (KNN)

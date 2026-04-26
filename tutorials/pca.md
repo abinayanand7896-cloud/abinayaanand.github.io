@@ -1,8 +1,8 @@
 ---
 layout: default
 title: PCA
-parent: ML Foundations
-nav_order: 10
+parent: ML Basics
+nav_order: 12
 ---
 
 # Principal Component Analysis (PCA)

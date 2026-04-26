@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Intermediate ML
-nav_order: 3
+parent: ML Basics
+nav_order: 14
 has_children: true
 ---
 

@@ -1,8 +1,8 @@
 ---
 layout: default
 title: XGBoost
-parent: Intermediate ML
-nav_order: 2
+parent: ML Basics
+nav_order: 8
 ---
 
 # XGBoost

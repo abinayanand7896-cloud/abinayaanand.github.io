@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Support Vector Machines
-parent: ML Foundations
-nav_order: 8
+parent: ML Basics
+nav_order: 9
 ---
 
 # Support Vector Machines (SVM)

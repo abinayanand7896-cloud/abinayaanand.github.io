@@ -1,7 +1,7 @@
 ---
 layout: default
 title: What is Machine Learning?
-parent: ML Foundations
+parent: ML Basics
 nav_order: 1
 ---
 

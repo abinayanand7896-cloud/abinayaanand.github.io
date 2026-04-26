@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Decision Trees
-parent: ML Foundations
-nav_order: 6
+parent: ML Basics
+nav_order: 5
 ---
 
 # Decision Trees

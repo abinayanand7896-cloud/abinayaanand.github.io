@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Random Forests
-parent: ML Foundations
-nav_order: 7
+parent: ML Basics
+nav_order: 6
 ---
 
 # Random Forests

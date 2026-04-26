@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Linear Regression
-parent: ML Foundations
-nav_order: 2
+parent: ML Basics
+nav_order: 3
 ---
 
 # Linear Regression

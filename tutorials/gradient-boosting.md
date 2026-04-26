@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Gradient Boosting
-parent: Intermediate ML
-nav_order: 1
+parent: ML Basics
+nav_order: 7
 ---
 
 # Gradient Boosting

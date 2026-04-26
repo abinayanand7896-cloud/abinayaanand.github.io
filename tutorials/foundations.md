@@ -1,6 +1,7 @@
 ---
 layout: default
 title: ML Foundations
+parent: ML Basics
 nav_order: 2
 has_children: true
 ---

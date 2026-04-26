@@ -1,8 +1,8 @@
 ---
 layout: default
 title: K-Means Clustering
-parent: ML Foundations
-nav_order: 9
+parent: ML Basics
+nav_order: 13
 ---
 
 # K-Means Clustering

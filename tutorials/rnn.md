@@ -2,7 +2,7 @@
 layout: default
 title: Recurrent Neural Networks
 parent: Deep Learning
-nav_order: 4
+nav_order: 5
 ---
 
 # Recurrent Neural Networks (RNN)

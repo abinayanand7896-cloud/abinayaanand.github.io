@@ -2,7 +2,7 @@
 layout: default
 title: Long Short-Term Memory
 parent: Deep Learning
-nav_order: 5
+nav_order: 6
 ---
 
 # Long Short-Term Memory (LSTM)

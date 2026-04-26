@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Logistic Regression
-parent: ML Foundations
-nav_order: 3
+parent: ML Basics
+nav_order: 4
 ---
 
 # Logistic Regression

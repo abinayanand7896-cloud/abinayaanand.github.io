@@ -2,7 +2,7 @@
 layout: default
 title: Convolutional Neural Networks
 parent: Deep Learning
-nav_order: 3
+nav_order: 4
 ---
 
 # Convolutional Neural Networks (CNN)

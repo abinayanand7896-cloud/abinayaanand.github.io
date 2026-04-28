@@ -1,0 +1,48 @@
+/* ═══════════════════════════════════════════════
+   AI FROM THE GROUND UP — Design System
+   Stripe-level dark theme
+═══════════════════════════════════════════════ */
+
+/* ── Override just-the-docs CSS variables ── */
+:root {
+  --body-background-color: #060a14;
+  --sidebar-color:         #060a14;
+  --nav-width:             252px;
+  --body-text-color:       #334155;
+  --body-heading-color:    #0f172a;
+  --link-color:            #6366f1;
+
+  /* ── Design tokens ── */
+  --bg-page:    #060a14;
+  --bg-surface: #0d1220;
+  --bg-content: #ffffff;
+
+  --border-dark:  rgba(255, 255, 255, 0.07);
+  --border-light: #e2e8f0;
+
+  --text-primary: #f8fafc;
+  --text-muted:   #64748b;
+  --text-reading: #334155;
+
+  --indigo:       #6366f1;
+  --indigo-light: #a5b4fc;
+  --purple:       #a855f7;
+  --purple-light: #d8b4fe;
+  --rose:         #f43f5e;
+  --sky:          #38bdf8;
+
+  --sidebar-active-bg:     rgba(99, 102, 241, 0.08);
+  --sidebar-active-border: #6366f1;
+  --sidebar-active-text:   #a5b4fc;
+
+  --topbar-height: 56px;
+  --ease:          0.18s ease;
+}
+
+/* ── Reduced motion ── */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}

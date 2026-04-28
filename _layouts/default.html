@@ -1,0 +1,68 @@
+---
+---
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en-US' }}">
+  {% include head.html %}
+  <body class="{% if page.url == '/' or page.url == '/index.html' %}page-home{% endif %}">
+
+    <header class="site-topbar">
+      <a class="topbar-logo" href="{{ '/' | relative_url }}">AI&nbsp;<span>Ground&nbsp;Up</span></a>
+      <div class="topbar-search" role="search" aria-label="Search tutorials">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        <span>Search tutorials…</span>
+        <kbd>⌘K</kbd>
+      </div>
+      <nav class="topbar-nav" aria-label="Site navigation">
+        <a class="topbar-link" href="https://github.com/abinayanand7896-cloud" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a class="topbar-cta" href="{{ '/tutorials/what-is-ml' | relative_url }}">Start →</a>
+      </nav>
+    </header>
+
+    <div class="page-shell">
+      <nav class="sidebar-nav" aria-label="Tutorial navigation">
+        {% include sidebar_custom.html %}
+      </nav>
+
+      <main class="main-content" id="main-content">
+        {{ content }}
+      </main>
+
+      <aside class="toc-panel" aria-label="On this page">
+        <div class="toc-label">On this page</div>
+        <nav class="toc-nav" id="toc-nav"></nav>
+      </aside>
+    </div>
+
+    <script>
+      (function () {
+        var tocNav = document.getElementById('toc-nav');
+        if (!tocNav) return;
+        var headings = document.querySelectorAll('.main-content h2, .main-content h3');
+        if (headings.length < 2) {
+          var panel = document.querySelector('.toc-panel');
+          if (panel) panel.style.display = 'none';
+          return;
+        }
+        headings.forEach(function (h) {
+          if (!h.id) h.id = h.textContent.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+          var a = document.createElement('a');
+          a.className = 'toc-link' + (h.tagName === 'H3' ? ' toc-link--h3' : '');
+          a.href = '#' + h.id;
+          a.textContent = h.textContent;
+          tocNav.appendChild(a);
+        });
+        var obs = new IntersectionObserver(function (entries) {
+          entries.forEach(function (e) {
+            if (e.isIntersecting) {
+              document.querySelectorAll('.toc-link').forEach(function (l) { l.classList.remove('active'); });
+              var active = tocNav.querySelector('[href="#' + e.target.id + '"]');
+              if (active) active.classList.add('active');
+            }
+          });
+        }, { rootMargin: '-20% 0px -70% 0px' });
+        headings.forEach(function (h) { obs.observe(h); });
+      })();
+    </script>
+
+  </body>
+</html>
